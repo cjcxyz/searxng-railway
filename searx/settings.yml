@@ -1491,6 +1491,7 @@ engines:
     qwant_categ: web
     engine: qwant
     shortcut: qw
+    disabled: true
     categories: [general, web]
     additional_tests:
       rosebud: *test_rosebud
@@ -1546,7 +1547,7 @@ engines:
     engine: reddit
     shortcut: re
     page_size: 25
-    disabled: true
+    disabled: false
 
   - name: right dao
     engine: xpath
